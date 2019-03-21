@@ -32,17 +32,14 @@ public class ArraysChp7 {
         System.out.println(Arrays.toString(b));
         
         return b;
-    }
+    }//reverse
     public static void main(String[] args) {
         int[] matrix = new int[10];
         
         matrix = loadWithRandom();
         display(matrix);
         System.out.println(Arrays.toString(matrix));
-        matrix = reverse(matrix);
-         
-        
-        
+        matrix = reverse(matrix);    
     }//main;
     
-}
+}//class
