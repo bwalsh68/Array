@@ -8,10 +8,8 @@ public class ArraysChp7 {
         int[] a = new int[10];
         
         for (int i = 0; i < a.length; i++) {
-             a[i] = (int)(100*Math.random()+1);
-            
+             a[i] = (int)(100*Math.random()+1);    
         }//for
-        
         
         return a;
     }// load with random
@@ -20,7 +18,7 @@ public class ArraysChp7 {
         for(int i:a)
             System.out.print(i+", ");
         System.out.println("");
-    }
+    }//display
     
     
     public static int[] reverse(int[] a){
