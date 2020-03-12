@@ -1,2 +1,2 @@
 # Array
-Show the basic structure of an arry
+Show the basic structure of an array
